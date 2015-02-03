@@ -1,0 +1,11 @@
+dependencies {
+
+    compile("org.springframework:spring-messaging:$springVersion") {
+        exclude group: 'org.projectreactor'
+    }
+    compile "org.springframework.integration:spring-integration-java-dsl:$integrationDslVersion"
+    compile "org.springframework.boot:spring-boot-starter-integration"
+
+    compile "io.projectreactor:reactor-net:$reactorVersion"
+
+}

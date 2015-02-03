@@ -1,0 +1,10 @@
+.cache
+.gradle
+.idea
+.project
+.settings
+*.iml
+*.ipr
+*.iws
+build/
+bin/
